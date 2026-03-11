@@ -250,10 +250,8 @@ Lab02A ต่อเนื่องจาก Lab01 (Backend ต้องรัน
 
 1. Swagger UI และ Newman ต่างกันอย่างไร? ควรใช้เครื่องมือใดในสถานการณ์ใด?
 2. `$ref: '#/components/schemas/Booking'` หมายความว่าอะไร?
-3. `pm.environment.set()` และ `pm.environment.unset()` สำคัญอย่างไร?
-4. `include.all.keys` ต่างจาก `have.all.keys` อย่างไร?
-5. Flag ใดที่ใช้รัน Newman ซ้ำ 5 รอบ?
-6. ควรเขียน Swagger Documentation ก่อนหรือหลัง Code API?
+3. Flag ใดที่ใช้รัน Newman ซ้ำ 5 รอบ?
+4. ควรเขียน Swagger Documentation ก่อนหรือหลัง Code API?
 
 *(คำตอบอยู่ในใบงาน `Lab02A_Swagger_Newman.md`)*
 
@@ -270,10 +268,9 @@ Lab02A ต่อเนื่องจาก Lab01 (Backend ต้องรัน
 | สร้าง Newman Collection และรัน | 10 |
 | เขียน `pm.test()` เพิ่มเติม | 10 |
 | แบบฝึกหัดที่ 2 (แก้ข้อมูล, Error, Assertion, Negative) | 15 |
-| คำถามทบทวน 6 ข้อ | 25 |
+| คำถามทบทวน 4 ข้อ | 25 |
 | **รวม** | **100** |
 
 ---
 
-*Lab02A เป็นส่วนหนึ่งของชุดใบงาน Lab02A → Lab02B → Lab02C*  
 *วิชาการออกแบบและพัฒนาซอฟต์แวร์ — Software Design and Development*
