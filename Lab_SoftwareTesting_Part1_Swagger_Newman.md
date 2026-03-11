@@ -85,34 +85,7 @@
 
 **Swagger แก้ปัญหานี้ด้วยการเป็น "Single Source of Truth":**
 
-```
-┌─────────────────────────────────────────────┐
-│  server.js                                  │
-│                                             │
-│  /**                                        │
-│   * @swagger                                │
-│   * /api/bookings:                          │
-│   *   post:                                 │
-│   *     summary: สร้างการจองใหม่              │
-│   *     requestBody: ...                    │
-│   */                                        │
-│  app.post('/api/bookings', handler)         │
-└─────────────────────┬───────────────────────┘
-                      │ swagger-jsdoc อ่าน comment
-                      ▼
-         ┌────────────────────────┐
-         │   OpenAPI JSON/YAML    │
-         │   (สร้างอัตโนมัติ)         │
-         └────────────┬───────────┘
-                      │
-       ┌──────────────┼──────────────┐
-       ▼              ▼              ▼
-┌──────────────┐ ┌──────────┐ ┌──────────────┐
-│ Swagger UI   │ │ Newman / │ │ Code         │
-│ (Browser)    │ │ Postman  │ │ Generator    │
-│ ทดลอง API    │ │ Import   │ │ Auto SDK     │
-└──────────────┘ └──────────┘ └──────────────┘
-```
+![Swagger Single Source of Truth](images/swagger-architect.png)
 
 ---
 
